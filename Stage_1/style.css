@@ -16,6 +16,7 @@ svg{width: .8rem;}
 img{max-width: 100%; object-fit: cover;}
 main{width: min(90%, 100% - 3rem); margin-inline: auto; display: grid; gap: 1rem;}
 .fill-white{fill: white}
+.mb-2{margin-bottom: .5rem;}
 .mb-4{margin-bottom: 1rem;}
 .flex{display: flex; gap: .75rem;}
 .font-medium{font-weight: 600}

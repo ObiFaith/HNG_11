@@ -17,12 +17,15 @@
       </div>
       <div class="flex justify-between intro">
         <div class="intro-text">
-          <h1 data-testid="slackDisplayName">Faith_Dev_</h1>
+          <div>
+            <h1 class="inline-block">Faith Obi</h1>
+            <span data-testid="slackDisplayName">(Faith_Dev_)</span>
+          </div>
           <p>I'm a Frontend Web Developer based in Lagos, Nigeria.</p>
         </div>
         <div class="flex align-center intro-links">
-          <a class="btn inline-block" href="https://github.com/ObiFaith">View Portfolio</a>
-          <a class="btn btn-primary flex" href="https://www.linkedin.com/in/faithdev/">
+          <a target="_blank" class="btn inline-block" href="https://github.com/ObiFaith">View Portfolio</a>
+          <a target="_blank" class="btn btn-primary flex" href="https://www.linkedin.com/in/faithdev/">
             <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
             Follow
           </a>
@@ -48,7 +51,7 @@
           </div>
           <div>
             <p class="font-medium">Email</p>
-            <a data-testid="slackEmail" href="mailto:obifth@gmail.com">obifth@gmail.com</a>
+            <a target="_blank" data-testid="slackEmail" href="mailto:obifth@gmail.com">obifth@gmail.com</a>
           </div>
         </div>
         <div>
@@ -64,8 +67,8 @@
       </div>
     </div>
     <hr>
-    <div class="">
-      <h3>Next Goals</h3>
+    <div>
+      <h3 class="mb-2">Next Goals</h3>
       <div class="flex justify-between gap-5 goals">
         <div class="w-100">
           <h4>Year 1 (2025)</h4>
@@ -79,11 +82,11 @@
     </div>
     <hr>
     <div class="mb-4">
-      <h3>Relevant Links</h3>
+      <h3 class="mb-2">Relevant Links</h3>
       <div class="flex justify-between links">
-        <a href="https://www.hng.tech/learn.com">Expert Courses Just For You</a>
-        <a href="https://keyword.dog/">The Quickest Way to Dominate Search Rankings</a>
-        <a href="https://scrapeanyweb.site/">Scrape any website, right from your desktop</a>
+        <a data-testid="hngLink" target="_blank" href="https://www.hng.tech/learn.com">Expert Courses Just For You</a>
+        <a data-testid="keywordLink" target="_blank" href="https://keyword.dog/">The Quickest Way to Dominate Search Rankings</a>
+        <a data-testid="scrapeanywebLink" target="_blank" href="https://scrapeanyweb.site/">Scrape any website, right from your desktop</a>
       </div>
     </div>
   </main>
