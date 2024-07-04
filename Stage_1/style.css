@@ -1,6 +1,6 @@
 *, *::after, *::before{box-sizing: border-box; padding: 0; margin: 0; text-decoration: none; outline: none;}
 body {
-  background-color: #fcfcfe; /* 6a707c border: 2px solid red;*/
+  background-color: #fcfcfe;
   font-optical-sizing: auto; font-style: normal;
 	font-variation-settings: 'slnt' 0, 'FLAR' 0, 'VOLM' 0;
 	font: 14px/1.5 'Commissioner', sans-serif;
@@ -11,7 +11,6 @@ a{color: #6748af}
 p{text-wrap: balance;}
 h1, h2, h3, h4, h5, h6 {color: #101626}
 svg{width: .8rem;}
-.w-70{width: 70%;}
 .w-100{width: 100%;}
 img{max-width: 100%; object-fit: cover;}
 main{width: min(90%, 100% - 3rem); margin-inline: auto; display: grid; gap: 1rem;}
@@ -39,5 +38,6 @@ main{width: min(90%, 100% - 3rem); margin-inline: auto; display: grid; gap: 1rem
   .about-intro{padding-top: 1.5rem;}
   .intro-text{padding-top: 1rem;}
   .about, .goals{gap: 3rem}
+  .about .flex{width: 70%;}
   .gradient{background: url('./imgs/background-pattern-desktop.svg') }
 }
